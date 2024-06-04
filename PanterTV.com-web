@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanterTV - Oficiální stránka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            border-bottom: 5px solid #333;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .merch {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .merch-item {
+            background: white;
+            border-radius: 15px;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .merch-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .minecraft-block {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: url('https://example.com/minecraft-block.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 15px;
+            margin: 10px;
+        }
+        .fortnite-icon {
+            width: 50px;
+            height: 50px;
+            background: url('https://example.com/fortnite-icon.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 50%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>PanterTV - Oficiální stránka</header>
+    <div class="container">
+        <h1>Vítej na PanterTV!</h1>
+        <p>Podívej se na naše videa, merch a další!</p>
+        
+        <div class="minecraft-block"></div>
+        <div class="fortnite-icon"></div>
+        
+        <h2>Merch</h2>
+        <div class="merch">
+            <div class="merch-item">
+                <img src="https://example.com/tricko.jpg" alt="Tricko">
+                <p>Pixelové tričko</p>
+                <button>Koupit</button>
+            </div>
+            <div class="merch-item">
+                <img src="https://example.com/ksiltovka.jpg" alt="Ksiltovka">
+                <p>Fortnite kšiltovka</p>
+                <button>Koupit</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © 2024 PanterTV. Všechna práva vyhrazena.
+    </div>
+</body>
+</html>
